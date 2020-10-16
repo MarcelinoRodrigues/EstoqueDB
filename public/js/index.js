@@ -2,6 +2,7 @@
 const $ = query => document.getElementById(query)
 const creat = paramer => document.createElement(paramer)
 
+
 //evento de click para validar o Login do usuÃ¡rio
 $('submit').addEventListener('click', () => {
     const user = $('user').value

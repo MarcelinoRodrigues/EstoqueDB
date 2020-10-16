@@ -1,0 +1,62 @@
+*{margin: 0; padding: 0; font-style: italic;}
+body{
+    background-color: #20B2AA;
+}
+.navbar{
+    background: repeating-linear-gradient(45deg, #B0E0E6, transparent 100px)!important;
+}
+.navbar-collapse{
+    text-align: center;
+}
+.row{
+    flex-wrap: inherit;
+}
+#sidebarMenu{
+    padding: 1em;
+    height: 500px;
+    overflow: overlay;
+    background-color: #f8f9fa;
+}
+.pt-3{
+    background-color: #B0E0E6;
+    border: solid 1px;
+    border-radius: 30px;
+}
+.button-group{
+    text-align: center;
+    margin-bottom: 5px;
+}
+form{
+    text-align: center
+}
+form input:focus{
+    background-color: #fdf5e6!important;
+}
+.maintable{
+    height: 400px;
+    overflow: overlay;
+    margin-bottom: 13px;
+}
+#caixa{
+    width: 30px;
+}
+tr{
+    text-align: center;
+}
+#danger,#dangermodal{
+    display: none;
+}
+.button-group button{
+    margin: 0.2em;
+}
+.footer{
+    background-color: #f8f9fa;
+    border: solid 1px;
+    border-radius: 30px;
+}
+/*desktop*/
+@media (min-width: 992px){
+    .navbar{
+        height: 100px;
+    }
+}
